@@ -1,0 +1,14 @@
+.text-center{
+    text-align: center;
+}
+.container{
+    margin: 960px;
+}
+.d-flex{
+    display: flex;
+}
+#position-absolude{
+    position: absolute;
+    top: 50% ;
+    left: 30%;
+}

@@ -1,0 +1,37 @@
+body{
+    font-size: 14px;
+    line-height: 1.15;
+}
+#wrapper{
+    width: 960px;
+    margin: 0px auto;
+}
+#header{
+    padding: 15px 0px;
+    background-color: #1abc9c;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+#sitebar{
+    order: 1;
+    min-height: 650px;
+    flex-basis: 70%;
+    background-color: beige;
+    padding: 15px;
+}
+#a{
+    order: 2;
+    flex-basis: 30%;
+    background-color:#badc58;
+}
+#content{
+    display: flex;   
+  
+}
+#footer{
+    padding: 7px 0px;
+    background-color: #535c68;
+    text-transform: uppercase;
+    color: #fff;
+}

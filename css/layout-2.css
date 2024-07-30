@@ -1,0 +1,27 @@
+body{
+    font-size: 14px;
+    line-height: 1.15;
+}
+#wrapper{
+    
+    margin: 0px auto;
+}
+#header{
+    padding: 15px 0px;
+    background-color: #1abc9c;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+#content{
+    min-height: 650px;
+    background-color: bisque;
+    padding: 15px;
+    margin: 0 20% 0 20%;
+
+}
+#footer{
+    padding: 7px 0px;
+    background-color: #535c68;
+    color: #fff;
+}

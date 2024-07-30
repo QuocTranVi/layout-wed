@@ -1,0 +1,54 @@
+
+body {
+    background-image: url('../hinhanh/bk.jpg');
+    background-size: cover;
+    background: position y -100px; ;
+}
+
+.container {
+    width: 960px;
+    
+    align-items: center;  /* căn giữa theo chiều dọc khối trong khối */
+    font-weight: bold;
+    font-family:"font awesome 1 free";
+    display: flex;
+    text-transform: uppercase;
+    height: 60px;
+   
+}
+
+#header {
+    justify-content: space-between;
+    background-color: #131921;
+    
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+#logo{
+    padding: 5px 0px;
+    margin-left: 200px;
+}
+#logo img{
+    
+    max-width: 100px;
+    height: auto;
+
+}
+
+#main-menu {
+    display: flex;
+    list-style: none;
+    margin-left: 200px ;
+    padding: 0;
+    
+}
+#main-menu li a{
+    color: #f8f8f8;
+    display: block;
+    padding: 18px 20px;
+    text-decoration: none;
+}

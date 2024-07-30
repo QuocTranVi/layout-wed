@@ -1,0 +1,112 @@
+body {
+
+    font-size: 14px;
+    line-height: 1.15;
+
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+}
+#logo-tastbar{
+      align-items: center;  /* căn giữa theo chiều dọc khối trong khối */
+    font-weight: bold;
+    font-family:"font awesome 1 free";
+    display: flex;
+    text-transform: uppercase;
+    height: 80px;
+    background-color: bisque;
+    position: relative;
+}
+.tastbar1{
+    margin-left: 170px;
+}
+.tastbar{
+    margin-left: 70px;
+}
+#header {
+    padding: 15px 0px;
+    background-color: #dff9fb;
+    text-transform: uppercase;
+    color: black;
+
+}
+.box{
+    text-align: left;
+    font-family: "font awesome  free";
+    font-weight: 600;
+    color: #dff9fb;
+    font-size: 15px;    
+
+    background-color:darkgray;
+    padding: 15px 15px 15px 15px;
+    
+    
+
+}
+#sitebar {
+    font-family: "font awesome  free";
+    font-weight: 900;
+    content: "\f2f6";
+    color: tomato;
+    font-size: 15px; 
+    min-height: 750px;
+    flex-basis: 60%;
+    background-color: beige;
+    padding: 15px;
+}
+
+#b {
+    margin-left: 0px;
+
+    flex-basis: 20%;
+    background-color: #badc58;
+}
+
+#a {
+    margin-right: 0px;
+
+    flex-basis: 20%;
+    background-color:goldenrod;
+}
+
+#content {
+    display: flex;
+
+}
+
+#footer {
+    padding: 7px 0px;
+    background-color: #535c68;
+    text-transform: uppercase;
+    color: tomato;
+}
+#owl-carousel owl-theme,img{
+    width: auto;
+    height: 200px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
